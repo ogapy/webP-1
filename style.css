@@ -1,12 +1,17 @@
 body {
   margin-left: 20px;
   margin-right: 0;
+  font-family: 'YuGothic';
 }
 .title {
   background-color: #eee;
   border-left: solid 5px orange;
   color: midnightblue;
   padding-left: 10px;
+}
+
+.introduction_list {
+  margin-left: 40px;
 }
 
 .table {
@@ -27,19 +32,14 @@ p {
   line-height: 15px;
 }
 
-.movie {
-  margin-top: 10px;
-  margin-bottom: 20px;
+.hobby {
+  margin-left: 50px;
 }
 
-.img {
-  width: 300px;
-  height: 500px;
-  background-image: url('music_player.jpeg');
-  background-size: cover;
-  background-position: center;
-  margin-top: 10px;
+.work {
+  line-height: 40px;
 }
+
 
 .footer {
   text-align: center;
@@ -62,6 +62,22 @@ p {
   color: #888;
 }
 
+
+
+/* 作品ページ */
+.img {
+  width: 300px;
+  height: 500px;
+  background-image: url('music_player.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.movie {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 .detail {
   font-size: 20px;
