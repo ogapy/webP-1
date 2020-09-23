@@ -1,0 +1,79 @@
+body {
+  margin-left: 20px;
+  margin-right: 0;
+}
+.title {
+  background-color: #eee;
+  border-left: solid 5px orange;
+  color: midnightblue;
+  padding-left: 10px;
+}
+
+.table {
+  margin: 10px auto;
+}
+
+th {
+  text-align: left;
+  /* font-weight: normal; */
+}
+
+.table, th, td {
+  border: solid 1px darkblue;
+  border-collapse: collapse;
+}
+
+p {
+  line-height: 15px;
+}
+
+.movie {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 300px;
+  height: 500px;
+  background-image: url('music_player.jpeg');
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #888;
+  position: relative;
+}
+
+.footer_icon {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+
+.footer_icon > a {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #888;
+}
+
+
+.detail {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.back {
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px auto;
+}
+
+.back_arrow {
+  margin-right: 10px;
+}
